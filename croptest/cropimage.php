@@ -10,7 +10,7 @@
 
         function __construct($src, $data, $file) {
         	$type = "";
-			
+			$woo = "boo";
             if (!empty($src)) {
                 $this -> setSrc($src);
 				$type = $this -> getPathInfo($src['type']);
