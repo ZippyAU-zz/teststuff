@@ -42,6 +42,7 @@
 
         public function setFile($file, $type) {
             if ($file['error'] === 0) {
+            	$bite = "ppp";
                 $info = $this -> getPathInfo($file['name']);
                 $src  = $this -> makeDir('img/upload') . '/' . md5($info['name']) . '.' . $info['type'];
 
